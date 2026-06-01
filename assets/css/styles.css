@@ -33,6 +33,7 @@ body {
   top: 0;
   left: 0;
   opacity: .85;
+  z-index: 1000;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -225,9 +226,9 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(../images/bg_ds.JPG) top center;
-  background-position: center -20px;
-  background-size: 110%;
+  background: #f4f4f4 url(../images/bg_ds.JPG) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
 }
